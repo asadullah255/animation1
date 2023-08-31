@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-nav .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    margin-bottom: -0.5rem;
+}
+.navbar-brand{
+    font-size: 1.5rem !important;
+    font-weight: 800;
+}
+.header{
+    position: relative;
+    width: 100%;
+    z-index: 111;
+}
+.header_video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+.mian{
+    position: relative;
+    background-color: rgba(13, 15, 15, 0.452);
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+}
+.change{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.change h1{
+    position: relative;
+    font-size: 130px;
+    font-weight: bold;
+}
+.change h1::before{
+    content: 'EAT.DRINK.PLAY';
+    position: absolute;
+    color: black;
+    top: -4px;
+    right: 116px;
+    -webkit-text-stroke: 1px #95C11E;
+    z-index: -1;
+}
+.change h2{
+    font-size: 22px;
+    font-weight: 800;
+}
+.change p{
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+.page2{
+    height: 40vh;
+    width: 100%;
+}
+#curser{
+    width: 25px;
+    height: 25px;
+    background-color: #95C11E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+#curser-blur{
+    width: 250px;
+    height: 250px;
+    background-color: #96c11e42;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(40px);
+    z-index: 9;
+}
+.fellow{
+    display: flex;
+}
+.fellow h4{
+    color: transparent;
+    font-size: 110px;
+    margin-left: 1rem;
+    -webkit-text-stroke: 2px #95C11E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fellow h4:hover{
+    color: #95C11E;
+}
+.main__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main__about p{
+    width: 30rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.imgone img{
+    border-radius: 10px;
+    object-fit: cover;
+    z-index: -1;
+}
+.content_img h1{
+    text-align: center;
+    font-weight: 800;
+}
+.mainCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.grene img{
+    height: 40vh;
+    z-index: -1;
+}
+.grene{
+    width: 100%;
+    height: 40vh;
+    background:linear-gradient(to left bottom,#13531b,#272928);
+}
+.grene{
+    /* padding: 0 4rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grene h5{
+    text-align: center;
+    color: #cccccc;
+    font-size: 1rem;
+    transform: skew();
+}
+.lastConrtent{
+    padding: 2rem 0;
+    /* margin-bottom: 20rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lastright img{
+    height: 45vh;
+}
+.lastleft p{
+    width: 33rem;
+}
+.lastleft h2{
+    font-weight: 800;
+}
+.lastleft h6{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #d6d6d6;
+}
+.lastleft p{
+    font-size: 0.8rem;
+}
+.lastleft button{
+    background-color: #779919;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+.write{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+}
+.write h2{
+    font-size: 6rem;
+    -webkit-text-stroke: 1px #95C11E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -5rem;
+}
+.page4{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+.elem{
+    width: 22.6%;
+    height: 42%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.elem img{
+    width: 100%;
+    scale: 1.1;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.elem:hover img{
+    scale: 1;
+}
+.elem h3{
+    width: 100%;
+    height: 100%;
+    background-color:#95C11E;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    z-index: 10;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    font-weight: 900;
+}
+.elem:hover h3{
+    color: white;
+    background-color: transparent;
+}
+.footer{
+    width: 100%;
+    height: 37vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #364d02;
+}
+.icon{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
